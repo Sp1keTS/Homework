@@ -1,0 +1,34 @@
+{
+    "name": "GameInput",
+    "maps": [
+        {
+            "name": "RollDice",
+            "id": "ad639bf4-5ea8-4a4d-b23c-0ee4094d15ec",
+            "actions": [
+                {
+                    "name": "Rolling",
+                    "type": "Button",
+                    "id": "43fee601-3900-4e6e-a98a-73bf28363b7d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5ca93f21-f241-4f42-9090-4e0c31728ee6",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rolling",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
