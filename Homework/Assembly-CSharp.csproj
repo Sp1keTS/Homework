@@ -46,11 +46,14 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.1.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\CubeScript.cs" />
-    <Compile Include="Assets\Scripts\CubeManager.cs" />
-    <Compile Include="Assets\Scripts\DiceScript.cs" />
-    <Compile Include="Assets\Scripts\Counter.cs" />
-    <Compile Include="Assets\Scripts\DiceRoller.cs" />
+    <Compile Include="Assets\Scripts\HW4\GameUI.cs" />
+    <Compile Include="Assets\Scripts\HW2\CubeScript.cs" />
+    <Compile Include="Assets\Scripts\HW3\DiceScript.cs" />
+    <Compile Include="Assets\Scripts\HW2\CubeManager.cs" />
+    <Compile Include="Assets\Scripts\HW3\DiceRoller.cs" />
+    <Compile Include="Assets\Scripts\HW3\Counter.cs" />
+    <Compile Include="Assets\Scripts\HW4\GameHandler.cs" />
+    <Compile Include="Assets\Scripts\HW4\DiceSpawner.cs" />
     <Compile Include="Assets\Inputs\GameInput.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
