@@ -21,8 +21,8 @@ public class DiceRoller : MonoBehaviour
     [SerializeField] TMP_Text rollButtonText;
     [SerializeField] TMP_InputField inputField;
     [SerializeField] private float velocityThreshold = 0.01f;
-    [SerializeField] private float initialDelay = 0.5f; // Задержка перед первой проверкой
-    [SerializeField] private float checkDelay = 0.1f; // Задержка между последующими проверками
+    [SerializeField] private float initialDelay = 0.5f; 
+    [SerializeField] private float checkDelay = 0.1f;
     
     public List<Rigidbody> Dices { get => dices; set => dices = value; }
     public Key RollKey { get => rollKey; set => rollKey = value; }
